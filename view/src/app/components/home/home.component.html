@@ -3,14 +3,23 @@
   <div class="input-group">
     <input type="text" class="form-control" placeholder="Search">
     <div class="input-group-append">
-      <button class="btn btn-secondary" type="button" >Search</button>
+      <button class="btn btn-secondary" type="button" >Get Tweets</button>
     </div>
   </div>
 
   <br>
-  <div class="row" >
-    <div class="column">
-      <img class="img"src="" style="width:100%">
-    </div>
+  <div class="row clearfix">
+    <div class="col-lg-12">
+      <div id="tweet-list">
+        <div  class="tweet-item">
+            <div class="tweet-details">
+              Tweeted from 
+            <!-- play around with rendering different Tweet properties -->
+            <!-- <p>{{tweet.user.screen_name}}</p> -->
+            <!-- <p>{{tweet.text}}</p> -->
+            </div>
+          </div>
+      </div>
+    <div>
   </div>
 </div>
